@@ -1,0 +1,1890 @@
+body{
+    background: #060d25;
+    padding: 0px 80px 0px 80px;
+}
+.float.wear-progress{
+    width: 100%;
+    height: .3rem;
+    position: relative;
+}
+.float .bar.fn{
+    width: 7%;
+    background-color: green;
+}
+.float.wear-progress {
+    width: 100%;
+    height: 0.3rem;
+    position: relative;
+}
+.float .wear-position {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0;
+}
+.float .bar.fn {
+    width: 7%;
+    background-color: green;
+}
+.float .bar.mw {
+    width: 8%;
+    background-color: #48c774;
+}
+.float .bar.ft {
+    width: 23%;
+    background-color: #ffdd57;
+}
+.float .bar.ww {
+    width: 7%;
+    background-color: #f14668;
+}
+.float .bar.bs {
+    width: 55%;
+    background-color: #b11736;
+}
+.float .bar {
+    float: left;
+    height: 100%;
+}
+.svg_float {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -0.125em;
+    width: 0.625em;
+    overflow: visible;
+    margin-bottom: -4px;
+}
+.skin-float-value {
+    font-size: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/*---------------------CABEÇALHO---------------------*/
+.container-cabecalho{
+    padding: 0px 80px 0px 80px;
+    box-sizing: border-box;
+}
+.barranav{
+    background: #060d25;
+    border-bottom: 1px solid rgb(36, 36, 36);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.container-carrinho-compra{
+    display: flex;
+    flex-direction: row;
+}
+.container-search{
+    background: #001334 ;
+    margin-left: 15px;
+    padding: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.search{
+    background: rgba(36, 0, 199, 0);
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 300px;
+}
+.fa-search{
+    color: #fff;
+}
+.btn-carrinho{
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    width: 120px;
+    background: #060d25;
+    border: 1px solid rgb(0, 0, 255);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.btn-carrinho:hover{
+    background: #0c1a44;
+}
+.btn-steam{
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    width: 120px;
+    background: linear-gradient(90deg, rgb(196, 145, 255), rgb(111, 0, 255));
+    border: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.btn-steam:hover{
+    color: rgb(218, 218, 218);
+}
+
+
+/*---------------------RODAPÉ---------------------*/
+#rodape{
+    border-top: 1px solid rgb(36, 36, 36);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#rodape h6{
+    color: #fff;
+}
+#rodape ul{
+    list-style: none;
+}
+#rodape li{
+    margin-bottom: 10px;
+}
+#rodape a{
+    color: #fff;
+    font-weight: 600;
+}
+#rodape a:hover{
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+}
+#rodape .fab{
+    color: rgb(0, 110, 255);
+    font-size: 25px;
+    margin-right: 10px;
+}
+#rodape .fab:hover{
+    color: rgb(0, 84, 194);
+}
+
+
+/*---------------------INDEX---------------------*/
+/*----- BANNER E MENU DE NAVEGAÇÃO DAS ARMAR -----*/
+/*BANNER*/
+#banner-e-nav{
+    position: relative;
+    margin-top: 90px;
+}
+#banner-e-nav h1{
+    color: #fff;
+}
+.container-banner-1{
+    background: url(../img/banner_loja/bannercs.png) no-repeat, linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 90, 255));
+    background-size: cover;
+    border-radius: 25px;
+    height: 200px;
+}
+.container-banner-2{
+    background: url(../img/banner_loja/bannercs2.png) no-repeat;
+    border-radius: 25px;
+    height: 200px;
+    background-position: right;
+    padding: 20px 0px 5px 50px;
+}
+/*MENU DE NAVEGAÇÃO DAS ARMAS*/
+#banner-e-nav a{
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+#banner-e-nav a:focus{
+    border-bottom: 2px solid #fff;
+}
+#banner-e-nav a:hover{
+    border-bottom: 2px solid #fff;
+}
+#banner-e-nav li{
+    margin-right: 5px;
+}
+ 
+.nav-tabs{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    margin-top: 60px;
+    bottom: 7px;
+    border: none;
+    width: 600px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.container-tabs{
+    display: flex;
+}
+.nav-tabs::-webkit-scrollbar {
+    height: 3px;
+}
+  
+.nav-tabs::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+.nav-tabs::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163);
+    border-radius: 20px;
+}
+
+/*----- CONTAINER DAS ARMAS -----*/
+#armas-index{
+    margin-top: 20px;
+}
+/*ARMAS*/
+.container-armas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    height: 450px;
+    transition: .3s;
+    background: #001334;
+    box-shadow: 0 0 20px rgba(0,0,0,.196569);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.container-armas:hover{
+    box-shadow: 0 0 20px rgba(31, 121, 255, 0.637);
+    transition: .3s;
+}
+#armas-index h4{
+    color: #fff;
+    font-weight: 700;
+}
+.float.wear-progress{
+    width: 100%;
+    height: .3rem;
+    position: relative;
+}
+.float .bar.fn{
+    width: 7%;
+    background-color: green;
+}
+.img-arma{
+    margin: 10px 0px 10px 0px;
+    width: 180px;
+    height: 140px;
+}
+#preco{
+    color: rgb(0, 255, 21);
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.plataformas2{
+    margin: 10px 0px 5px 15px;
+}
+.plataformas2 a{
+    color: #fff;
+    letter-spacing: 20px;
+}
+.btn-addcarrinho{
+    background: rgb(0, 162, 255);
+    color: #fff;
+}
+.anuncio:hover{
+    text-decoration: none;
+}
+#time{
+    font-size: 14px;
+    color: red;
+}
+.title-adesivo{
+    font-size: 13px;
+}
+
+
+/*---------------------FILTRO---------------------*/
+/*----- FILTRO DAS ARMAS -----*/
+.filtro{
+    background: #001334;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-filtro{
+    text-align: left;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 140, 255, 0.192);
+}
+.container-filtro h4{
+    color: #fff;
+}
+.container-filtro span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+.dropdown-menu{
+    background: none;
+    border: none;
+    width: 80%;
+}
+.btn-filtro-armas{
+    top: 70px;
+    left: 5px;
+    background: none;
+    border: 1px solid blue;
+    font-size: 10px;
+    padding: 5px;
+}
+/*FILTRO RANGE*/
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border-radius: 19px;
+    border: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid rgba(76, 0, 255, 0.178);
+    height: 22px;
+    width: 10px;
+    border-radius: 6px;
+    background: #5863f8;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -9px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border-radius: 19px;
+    border: none;
+}
+input[type=range]::-moz-range-thumb {
+    box-shadow: 2px 2px 7px #000000;
+    border: 1px solid rgba(76, 0, 255, 0.178);
+    height: 32px;
+    width: 17px;
+    border-radius: 6px;
+    background: #5863f8;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 7px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border: 0px solid #000000;
+    border-radius: 38px;
+    box-shadow: 1px 1px 6px #000000;
+}
+input[type=range]::-ms-fill-upper {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border: 0px solid #000000;
+    border-radius: 38px;
+    box-shadow: 1px 1px 6px #000000;
+}
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 2px 2px 7px #000000;
+    border: 1px solid rgba(76, 0, 255, 0.178);
+    height: 32px;
+    width: 17px;
+    border-radius: 6px;
+    background: #5863f8;
+    cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+}
+
+/*FILTRO CHECKBOX*/
+.form-wear{
+    display: flex;
+    flex-direction: column;
+}
+.opcao-filtro label{
+    color: #fff;
+}
+.check-filtro{
+    display: none;
+}
+.check-filtro + label::before{
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background: none;
+    border: 1px solid #1775e5;
+    margin-bottom: -3px;
+    margin-right: 10px;
+}
+.check-filtro:checked + label::before{
+    background: #1775e5;
+}
+
+/*Botão limpar filtro*/
+.btn-limpar-filtro{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 70px 10px 70px;
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #022768;
+}
+.btn-limpar-filtro:hover{
+    color: #fff;
+    background: #022768;
+}
+
+/*----- CONTAINER DAS ARMAS -----*/
+#armas-filtro{
+    margin-top: 20px;
+}
+#armas-filtro h4{
+    color: #fff;
+    font-weight: 700;
+}
+.float.wear-progress{
+    width: 100%;
+    height: .3rem;
+    position: relative;
+}
+.float .bar.fn{
+    width: 7%;
+    background-color: green;
+}
+/*----- FILTRO DAS ARMAS -----*/
+.filtro{
+    background: #001334;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-filtro{
+    text-align: left;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 140, 255, 0.192);
+}
+.container-filtro h4{
+    color: #fff;
+}
+.container-filtro span{
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+/*FILTRO RANGE*/
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border-radius: 19px;
+    border: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid rgba(76, 0, 255, 0.178);
+    height: 22px;
+    width: 10px;
+    border-radius: 6px;
+    background: #5863f8;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -9px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+}
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border-radius: 19px;
+    border: none;
+}
+input[type=range]::-moz-range-thumb {
+    box-shadow: 2px 2px 7px #000000;
+    border: 1px solid rgba(76, 0, 255, 0.178);
+    height: 32px;
+    width: 17px;
+    border-radius: 6px;
+    background: #5863f8;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 7px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border: 0px solid #000000;
+    border-radius: 38px;
+    box-shadow: 1px 1px 6px #000000;
+}
+input[type=range]::-ms-fill-upper {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+    border: 0px solid #000000;
+    border-radius: 38px;
+    box-shadow: 1px 1px 6px #000000;
+}
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 2px 2px 7px #000000;
+    border: 1px solid rgba(76, 0, 255, 0.178);
+    height: 32px;
+    width: 17px;
+    border-radius: 6px;
+    background: #5863f8;
+    cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: linear-gradient(90deg, rgb(0, 195, 255), rgb(0, 68, 255));
+}
+
+/*FILTRO CHECKBOX*/
+.form-wear{
+    display: flex;
+    flex-direction: column;
+}
+.opcao-filtro label{
+    color: #fff;
+}
+.check-filtro{
+    display: none;
+}
+.check-filtro + label::before{
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background: none;
+    border: 1px solid #1775e5;
+    margin-bottom: -3px;
+    margin-right: 10px;
+}
+.check-filtro:checked + label::before{
+    background: #1775e5;
+}
+
+/*Botão limpar filtro*/
+.btn-limpar-filtro{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 70px 10px 70px;
+    background: none;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #022768;
+}
+.btn-limpar-filtro:hover{
+    color: #fff;
+    background: #022768;
+}
+
+/*----- CONTAINER DAS ARMAS -----*/
+#armas-filtro{
+    margin-top: 20px;
+}
+#armas-filtro h4{
+    color: #fff;
+    font-weight: 700;
+}
+.float.wear-progress{
+    width: 100%;
+    height: .3rem;
+    position: relative;
+}
+.float .bar.fn{
+    width: 7%;
+    background-color: green;
+}
+
+
+/*---------------------INVENTÁRIO---------------------*/
+/*----- INVENTARIO -----*/
+#inventario{
+    margin-top: 90px;
+}
+.pesquisa-inventario{
+    width: 89%;
+    background: rgba(26, 7, 122, 0.205);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    outline: none;
+    border: 1px solid rgba(150, 150, 150, 0.199);
+    padding: 5px;
+    color: #fff;
+}
+.btn-filtro{
+    color: #fff;
+}
+.btn-filtro:hover{
+    color: rgb(175, 175, 175);
+}
+.armas{
+    height: 700px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.container-inventario{
+    background: #001334;
+    border-radius: 20px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+.container-itens{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(26, 7, 122, 0.205);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.container-itens img{
+    width: 200px;
+}
+.adesivos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.adesivos img{
+    width: 15%;
+}
+.container-itens span{
+    color: #fff;
+    font-size: 20px;
+}
+.armas::-webkit-scrollbar {
+    width: 3px;
+}
+  
+.armas::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+.armas::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163);
+    border-radius: 20px;
+}
+
+/*VENDA*/
+.container-venda{
+    background: #001334;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.lista-venda{
+    height: 400px;
+    width: 100%;
+    overflow-y: auto;
+}
+.itens-venda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgba(218, 218, 218, 0.13);
+    margin-bottom: 5px;
+}
+.itens-venda span{
+    font-size: 13px;
+}
+.itens-venda img{
+    width: 80px;
+    margin-right: 10px;
+}
+.text-itens-venda{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-right: auto;
+}
+.excluir{
+    color: rgb(199, 199, 199);
+}
+
+.resumo-venda{
+    border-top: 1px solid rgba(218, 218, 218, 0.13);
+    border-bottom: 1px solid rgba(218, 218, 218, 0.13);
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.resumo-venda span{
+    margin-right: 15px;
+    font-size: 18px;
+}
+.btn-vender{
+    width: 100%;
+    background: rgb(89, 179, 0);
+    color: #fff;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.btn-vender:hover{
+    color: #fff;
+    background: rgb(75, 150, 0);
+}
+.lista-venda::-webkit-scrollbar {
+    width: 3px;
+} 
+.lista-venda::-webkit-scrollbar-track {
+    background: transparent;
+} 
+.lista-venda::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163);
+    border-radius: 20px;
+}
+
+
+/*---------------------MODAL---------------------*/
+.modal-header{
+    border: none;
+    margin-bottom: 50px;
+}
+.modal-content{
+    background: #060d25;
+    box-shadow: 0 0 10px rgba(70, 243, 255, 0.2);
+}
+.modal-content h3{
+    color: #fff;
+}
+.modal-content h4{
+    color: #fff;
+}
+.close span{
+   color: #fff;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-body h6{
+    color: #fff;
+}
+.modal-body p{
+    color: rgb(167, 167, 167);
+}
+
+.suporte-tec{
+    margin: 65px 0px 25px 0px;
+    width: 270px;
+    border-radius: 10px;
+    padding: 5px;
+    background: #001334;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+.suporte-txt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+}
+.tentar-nov{
+    color: rgb(163, 50, 255);
+    font-size: 15px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user i{
+    height: 30px;
+}
+.user span{
+    font-size: 12px;
+    color: #fff;
+}
+.user-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*LISTA ARMAS*/
+
+.armas-modal{
+    margin-top: 15px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.img-arma-modal{
+    width: 60px;
+    padding: 5px;
+    background: rgba(41, 41, 41, 0.253);
+    border-radius: 5px;
+}
+.armas-modal li{
+    margin-right: 5px;
+    width: 60px;
+    height: 50px;
+}
+.text-arma{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+    background: rgba(41, 41, 41, 0.253);
+    border-radius: 5px;
+}
+
+
+/*ACEITAR*/
+.aceitar{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    align-items: center;
+}
+.aceitar span{
+    color: rgb(151, 151, 151);
+    margin-right: 20px;
+}
+.aceitar a{
+    color: rgb(138, 43, 226);
+    margin-right: 20px;
+}
+.aceitar a:hover{
+    text-decoration: none;
+    color: rgba(137, 43, 226, 0.664);
+}
+
+
+/*CANCELAMENTO*/
+.cancelamento{
+    padding: 0px 140px 0px 140px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cancelamento p{
+    font-size: 14px;
+}
+.cancelamento a{
+    color: rgb(137, 43, 226);
+}
+
+
+/*---------------------PRODUTO---------------------*/
+#produto{
+    margin-top: 90px;
+}
+.bg-produto{
+    background: #001334;
+    border-radius: 10px;
+    height: 100%;
+}
+.info-arma{
+    color: #fff;
+}
+.container-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-produto img{
+    width: 500px;
+}
+/*----- PREÇO -----*/
+#produto h1, span, i{
+    color: #fff;
+}
+#produto p{
+    color: rgb(133, 133, 133);
+}
+.btn-login-compra{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, rgb(0, 217, 255), rgb(0, 132, 255));
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-login-compra:hover{
+    color: rgba(255, 255, 255, 0.897);
+    box-shadow: 0 0 10px rgba(146, 146, 146, 0.5);
+}
+.btn-login-steam{
+    width: 100%;
+    height: 50px;
+    border: 1px solid  rgb(4, 43, 80);
+    color: #fff;
+    font-weight: 600;
+}
+.btn-login-steam i{
+    color: rgb(0, 110, 255);
+}
+.btn-login-steam:hover{
+    background: rgb(4, 43, 80);
+    color: #fff;
+}
+.separador{
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid rgb(4, 43, 80);
+}
+.separador2{
+    padding: 15px 0px 15px 0px;
+}
+
+/*SIMILARES*/
+#similares{
+    margin-top: 25px;
+    height: 450px;
+    overflow-y: auto;
+    background: #001334;
+    padding: 20px 15px 20px 15px;
+}
+#similares h6{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+#similares::-webkit-scrollbar {
+    width: 5px;
+}
+  
+#similares::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+#similares::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163);
+    border-radius: 20px;
+}
+.container-similares{
+    border: 1px solid rgb(4, 43, 80);
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.container-sim-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container-sim-item2{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.img-similar{
+    width: 60px;
+    margin-right: 20px;
+}
+.titulo-similares{
+    color: rgb(151, 151, 151);
+}
+
+/*ITENS RELACIONADOS*/
+#itens-relacionados{
+    margin-top: 35px;
+}
+#itens-relacionados h1{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+/*---------------------DADOS PESSOAIS---------------------*/
+
+#cadastro{
+    margin-top: 90px;
+}
+#cadastro h1{
+    color: #fff;
+    border-bottom: 1px solid rgb(36, 36, 36);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#cadastro label{
+    color: rgb(151, 151, 151);
+}
+#cadastro .row{
+    padding-bottom: 10px;
+}
+#cadastro img{
+    width: 120px;
+    margin-bottom: 10px;
+    border-radius: 70px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.356);
+}
+#cadastro input{
+    background: #001334;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.473);
+}
+.container-cadastro{
+    padding: 20px;
+    
+}
+.btn-enviar-form{
+    width: 100%;
+    margin-top: 15px;
+    background: rgb(46, 139, 87);
+    color: #fff;
+    font-weight: 600;
+}
+.btn-enviar-form:hover{
+    color: #fff;
+    background: rgb(48, 160, 97);
+}
+
+
+/*---------------------TRANSAÇÃO---------------------*/
+#transacoes{
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+#transacoes .col-md-12{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#transacoes thead{
+    color: #ffffff;
+}
+#transacoes th{
+    border: none;
+}
+#transacoes td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #0c1a44;
+    vertical-align: middle;
+}
+#transacoes h1{
+    color: #fff;
+}
+.container-search-transacao{
+    background: #001334 ;
+    margin-left: 15px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.search-transacao{
+    width: 95%;
+    background: #001334;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.text-tabela{
+    color: rgb(151, 151, 151);
+}
+.text-arma-transacao{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+    background: rgba(41, 41, 41, 0.253);
+    border-radius: 5px;
+}
+.tran-cancelada{
+    text-align: center;
+    background: rgba(231, 108, 108, 0.192);
+    padding: 5px;
+    border-radius: 5px;
+    color: #b11736;
+}
+.fa-times{
+    color: #b11736;
+}
+.tran-aceita{
+    text-align: center;
+    background: #80e77c42;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(0, 199, 27);
+}
+.fa-check{
+    color: rgb(0, 199, 27)
+}
+#transacoes .col-md-12::-webkit-scrollbar {
+    height: 3px;
+}
+  
+#transacoes .col-md-12::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+#transacoes .col-md-12::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163);
+    border-radius: 20px;
+}
+.page-link{
+    background: #001334;
+    color: blue;
+    border: 1px solid rgb(117, 117, 117);
+}
+.page-link:hover{
+    background: #001b49;
+}
+
+
+/*--------------------- CARRINHO ---------------------*/
+#carrinho{
+    margin-top: 90px;
+}
+#carrinho h6, h4, h1{
+    color: #fff;
+}
+#carrinho label{
+    font-size: 15px;
+}
+.armas-carrinho{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 700px;
+    background: #001334;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+.container-item-carrinho{
+    display: flex;
+    flex-direction: row;
+}
+.container-item-carrinho img{
+    width: 90px;
+    margin-right: 15px;
+}
+.container-texto-carrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-item-carrinho .fa-clock{
+    color: rgb(29, 29, 235);
+    margin-right: 10px;
+    font-size: 12px;
+}
+.container-item-carrinho .fa-thumbs-up{
+    color: rgb(36, 235, 29);
+    margin-right: 10px;
+    font-size: 12px;
+}
+.container-item-carrinho .fa-thumbs-down{
+    color: rgb(235, 29, 29);
+    margin-right: 10px;
+    font-size: 12px;
+}
+.separador-carrinho{
+    border-bottom: 1px solid rgba(68, 68, 201, 0.274);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.btn-close-carrinho{
+    margin-left: 30%;
+}
+.armas-carrinho::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+  
+.armas-carrinho::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+.armas-carrinho::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163);
+    border-radius: 20px;
+}
+
+
+/*---------------------@MEDIA---------------------*/
+
+@media screen and (max-width: 387px) {
+    body{
+        padding: 0px 30px 0px 30px;
+    }
+        /*----- CABEÇALHO -----*/
+    .container-cabecalho{
+        padding: 0px;
+    }
+    .container-carrinho-compra{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navbar-brand{
+        font-size: 18px;
+    }
+    .navbar-pesquisa{
+        position: fixed;
+        top: 57px;
+        left: -15px;
+        width: 100%;
+    }
+    .fa-search{
+        font-size: 18px;
+    }
+    .search{
+        width: 93%;
+    }
+    .container-search{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .btn-steam, .btn-carrinho{
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        width: 50px;
+    }
+    
+        /*----- BANNER E MENU DE NAVEGAÇÃO DAS ARMAS -----*/ 
+    .container-banner-1{
+        background:  url(../img/banner_loja/bannercs.png), linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 90, 255));
+    }
+    .container-banner-2{
+        background: none;
+        padding: 10px 5px 5px 15px;
+        border-radius: 5px;
+    }
+    .nav-tabs{
+        width: 81%;
+    }
+    
+        /*----- ARMAS -----*/
+    #armas{
+        padding: 0px 30px 0px 30px;
+    }
+
+    /*----- LISTA INVENTARIO -----*/
+    #inventario{
+        margin-top: 90px;
+    }
+    .container-inventario{
+        margin-bottom: 5px;
+    }
+    .pesquisa-inventario{
+        width: 55%;
+    }   
+    .container-itens img{
+        width: 50%;
+    }
+    .adesivos{
+        margin-bottom: 5px;
+    }
+    .adesivos img{
+        width: 13%;
+    }
+    .float.wear-progress{
+        width: 100%;
+        height: .3rem;
+        position: relative;
+    }
+    .float .bar.fn{
+        width: 7%;
+        background-color: green;
+    }
+
+    /*PRODUTO*/
+    .container-produto img{
+        width: 75%;
+    }
+    #produto .col-12{
+        margin-bottom: 25px;
+    }
+    .btn-login-compra, .btn-login-steam{
+        margin-bottom: 10px;
+    }
+    .p-steam{
+        float: right;
+    }
+
+    /*ITENS SIMILARES*/
+    #similares{
+        border-radius: 15px;
+    }
+    .container-similares{
+        margin-bottom: 15px;
+    }
+    .container-similares h3{
+        font-size: 15px;
+    }
+
+    /*----- TRANSAÇÕES -----*/
+    #transacoes{
+        margin-top: 120px;
+    }
+
+    /*----- CARRINHO -----*/
+    #carrinho{
+        margin-top: 120px;
+    }
+    #carrinho img{
+        width: 70px;
+    }
+    #carrinho h4{
+        font-size: 20px;
+    }
+    .resumo-carrinho{
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .armas-carrinho{
+        padding-top: 10px;
+    }
+    .container-item-carrinho{
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 991px){
+
+    .col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cancelamento{
+        padding: 0px 30px 0px 30px;
+    }
+    
+    }
+
+
+@media screen and (min-width: 388px) and (max-width: 575px){
+    
+    body{
+        padding: 30px 30px 0px 30px;
+    }
+        /*----- CABEÇALHO -----*/
+    .container-cabecalho{
+        padding: 0px;
+    }
+    .container-search{
+        margin-left: 0px;
+    }
+    .container-carrinho-compra{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navbar-pesquisa{
+        position: fixed;
+        top: 60px;
+        left: 0px;
+        width: 100%;
+    }
+    .search{
+        width: 92%;
+    }
+    .btn-steam, .btn-carrinho{
+        margin-bottom: 5px;
+        margin-left: 10px;
+        width: 50px;
+    }
+    
+        /*----- BANNER E MENU DE NAVEGAÇÃO DAS ARMAS -----*/ 
+    .container-banner-1{
+        background:  url(../img/banner_loja/bannercs.png), linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 90, 255));
+    }
+    .container-banner-2{
+        background: none;
+        padding: 10px 5px 5px 15px;
+        border-radius: 5px;
+    }
+    .nav-tabs{
+        width: 81%;
+    }
+
+        /*----- FILTRO -----*/
+    .btn-filtro-armas{
+        top: 70px;
+    }
+    
+        /*----- ARMAS -----*/
+    #armas{
+        padding: 0px 30px 0px 30px;
+    }
+
+    /*----- LISTA INVENTARIO -----*/
+    .container-inventario{
+        margin-bottom: 5px;
+    }
+    .pesquisa-inventario{
+        width: 60%;
+    }
+    .container-itens img{
+        width: 75%;
+    }
+    .adesivos{
+        margin-bottom: 5px;
+    }
+    .adesivos img{
+        width: 13%;
+    }
+    .float.wear-progress{
+        width: 100%;
+        height: .3rem;
+        position: relative;
+    }
+    .float .bar.fn{
+        width: 7%;
+        background-color: green;
+    }
+
+    /*PRODUTO*/
+    .container-produto img{
+        width: 75%;
+    }
+    #produto .col-12{
+        margin-bottom: 25px;
+    }
+    .btn-login-compra, .btn-login-steam{
+        margin-bottom: 10px;
+    }
+    .p-steam{
+        float: right;
+    }
+
+    /*ITENS SIMILARES*/
+    #similares{
+        border-radius: 15px;
+    }
+    .container-similares{
+        margin-bottom: 15px;
+    }
+    .container-similares h3{
+        font-size: 15px;
+    }
+
+    /*----- TRANSAÇÕES -----*/
+    #transacoes{
+        margin-top: 120px;
+    }
+
+    /*----- CARRINHO -----*/
+    #carrinho{
+        margin-top: 120px;
+    }
+    #carrinho img{
+        width: 70px;
+    }
+    #carrinho h4{
+        font-size: 20px;
+    }
+    .resumo-carrinho{
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    .armas-carrinho{
+        padding-top: 10px;
+    }
+    .container-item-carrinho{
+        margin-bottom: 15px;
+    }
+
+    
+    
+    }/*FIM TELA MENOR QUE 576PX*/
+    
+    /*TELA MAIOR QUE 576PX E MENOR QUE 767PX*/
+    @media screen and (min-width: 576px) and (max-width: 767px) {
+        body{
+            padding: 30px 30px 0px 30px;
+        }
+    
+        /*CABEÇALHO*/
+    .container-cabecalho{
+        padding: 0px;
+    }
+    .container-search{
+        margin-left: 0px;
+    }
+    .search{
+        width: 230px;
+    }
+    .container-carrinho-compra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-steam, .btn-carrinho{
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+    
+    /*----- BANNER E MENU DE NAVEGAÇÃO DAS ARMAS -----*/
+    .container-banner-1{
+        background:  url(../img/banner_loja/bannercs.png), linear-gradient(90deg, rgb(0, 162, 255), rgb(0, 90, 255));
+    }
+    .container-banner-2{
+        background: none;
+        padding: 10px 5px 5px 15px;
+        border-radius: 5px;
+    }
+    .nav-tabs{
+        width: 85%;
+    }
+
+       /*----- FILTRO -----*/
+       .btn-filtro-armas{
+        top: 110px;
+    }
+
+    /*----- LISTA INVENTARIO -----*/
+.container-venda{
+    display: flex;
+    flex-direction: column;
+}
+.container-inventario{
+    margin-bottom: 5px;
+}
+.pesquisa-inventario{
+    width: 80%;
+}
+.container-itens img{
+    width: 75%;
+}
+.adesivos{
+    margin-bottom: 5px;
+}
+.adesivos img{
+    width: 13%;
+}
+
+/*VENDAS*/
+.itens-venda img{
+    width: 80px;
+}
+
+/*PRODUTO*/
+.container-produto img{
+    width: 70%;
+}
+#produto .col-12{
+    margin-bottom: 15px;
+}
+
+/*PREÇO*/
+.p-steam{
+    float: right;
+    margin-right: 20px;
+}
+.btn-login-compra, .btn-login-steam{
+    margin-bottom: 10px;
+}
+
+/*PRODUTOS SIMILARES*/
+#similares{
+    border-radius: 15px;
+}
+.container-similares h3{
+    font-size: 20px;
+}
+
+
+/*----- TRANSAÇÕES -----*/
+#transacoes{
+    margin-top: 120px;
+}
+
+
+/*----- CARRINHO -----*/
+#carrinho{
+    margin-top: 120px;
+}
+.armas-carrinho{
+    padding-top: 10px;
+}
+.resumo-carrinho{
+    margin-bottom: 25px;
+}
+.container-item-carrinho{
+    margin-bottom: 15px;
+}
+
+}/*FIM TELA MAIOR QUE 767PX E MENOR QUE 620PX*/
+    
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+    body{
+        padding: 30px 30px 0px 30px;
+    }
+    
+        /*CABEÇALHO*/
+    .container-cabecalho{
+        padding: 0px;
+    }
+    .container-search{
+         margin-left: 0px;
+    }
+    .search{
+        width: 365px;
+    }
+    .container-carrinho-compra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-steam, .btn-carrinho{
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+
+    /*FILTRO*/
+    .btn-limpar-filtro{
+        padding: 10px 30px 10px 30px;
+    }
+    .btn-filtro-armas{
+        top: 110px;
+    }
+
+    /*----- LISTA INVENTARIO -----*/
+
+.container-inventario{
+    margin-bottom: 20px;
+}
+.pesquisa-inventario{
+    width: 85%;
+}
+.container-itens img{
+    width: 95%;
+}
+.adesivos{
+    margin-bottom: 5px;
+}
+.adesivos img{
+    width: 13%;
+}
+
+/*----- VENDA -----*/
+.container-venda{
+    display: flex;
+    flex-direction: column;
+}
+
+/*PRODUTO*/
+.container-produto img{
+    width: 60%;
+}
+#produto .col-12{
+    margin-bottom: 15px;
+}
+
+/*PREÇO*/
+.p-steam{
+    float: right;
+    margin-right: 20px;
+}
+.btn-login-compra, .btn-login-steam{
+    margin-bottom: 10px;
+}
+
+/*PRODUTOS SIMILARES*/
+#similares{
+    border-radius: 15px;
+}
+.container-similares h3{
+    font-size: 20px;
+}
+
+
+/*----- TRANSAÇÕES -----*/
+#transacoes{
+    margin-top: 120px;
+}
+
+
+/*----- CARRINHO -----*/
+#carrinho{
+    margin-top: 120px;
+}
+.resumo-carrinho{
+    margin-bottom: 25px;
+}
+.armas-carrinho{
+    padding-top: 10px;
+}
+.container-item-carrinho{
+    margin-bottom: 15px;
+}
+.btn-close-carrinho{
+    margin-left: 35%;
+}
+    
+    }/*FIM TELA MAIOR QUE 768PX E MENOR QUE 991PX*/
+    
+    @media screen and (min-width: 992px) and (max-width:1199px){
+    body{
+        padding: 0px 30px 0px 30px;
+    }
+    
+        /*CABEÇALHO*/
+    .container-cabecalho{
+        padding: 0px;
+    }
+    .container-search{
+        margin-left: 0px;
+    }
+    .search{
+         width: 445px;
+    }
+
+     /*FILTRO*/
+     .btn-limpar-filtro{
+        padding: 10px 30px 10px 30px;
+    }
+
+    /*LISTA INVENTARIO*/
+    .armas{
+        overflow-x: hidden;
+    }
+    .pesquisa-inventario{
+        width: 80%;
+    }
+    .container-itens img{
+        width: 115%;
+    }
+    .adesivos img{
+        width: 15%;
+    }
+
+    /*PRODUTO*/
+    .container-produto img{
+        width: 50%;
+        margin-top: 50px;
+    }
+    #produto .col-12{
+        margin-bottom: 15px;
+    }
+
+    /*PREÇO*/
+    .p-steam{
+        float: right;
+        margin-right: 50px;
+    }
+
+    /*PRODUTOS SIMILARES*/
+    #similares{
+        border-radius: 15px;
+    }
+    .container-similares h3{
+        font-size: 25px;
+    }
+
+    /*----- CARRINHO -----*/
+    #carrinho{
+        margin-top: 120px;
+    }
+    #carrinho h4{
+        font-size: 20px;
+    }
+    .btn-close-carrinho{
+        margin-left: 0%;
+    }
+
+    
+
+    }/*FIM TELA MAIOR QUE 992PX E MENOR QUE 1199PX*/
+    
+    
+    @media screen and (min-width: 1200px) and (max-width:1510px){
+    body{
+        padding: 0px 0px 0px 0px;
+    }
+    .container-armas{
+        height: 99%;
+    }
+    .btn-addcarrinho{
+        font-size: 14px;
+    }
+    .container-inventario img{
+        width: 90%;
+    }
+    .adesivos img{
+        width: 15%;
+    }
+    .pesquisa-inventario{
+        width: 85%;
+    }
+
+    /*PRODUTO*/
+    #produto .col-12{
+        margin-bottom: 15px;
+    }
+
+    /*PREÇO*/
+    .p-steam{
+        float: right;
+        margin-right: 50px;
+    }
+
+    /*PRODUTOS SIMILARES*/
+    #similares{
+        border-radius: 15px;
+    }
+    .container-similares h3{
+        font-size: 25px;
+    }
+
+    /*ITENS RELACIONADOS*/
+    .container-armas{
+        height: 100%;
+    }
+
+    }/*FIM 

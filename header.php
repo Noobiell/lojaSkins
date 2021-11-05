@@ -36,7 +36,7 @@
     <header id="cabecalho">
         <nav class="navbar navbar-expand-lg barranav fixed-top">
             <div class="container-fluid container-cabecalho">
-                <a class="navbar-brand" href="index.php">BlastSkins</a>
+                <a class="navbar-brand" href="index.php">Logo</a>
                 <ul class="navbar-nav navbar-pesquisa">
                     <li class="nav-item">
                         <div class="container-search">
